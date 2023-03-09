@@ -3,34 +3,107 @@
 
 <head>
     <title>HTML Test🌟</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>HTML Test</h1>
-        <ul>
-            <li><a href="#">Intro.</a></li>
-            <li><a href="#">Features</a></li>
-        </ul>
-    </header>
+    <div> <!-- Start -->
+        <header>
+            <h1>&lt;HTML Test&gt;</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#intro">Intro.</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#source">Related Source</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section>
-        <h2>Hello! Welcome to web3</h2>
-        <p>This is ethereum mainnet. Please connect your wallet to experience web3.</p>
-    </section>
+        <div>
+            <figure>
+                <img src="./img/istockphoto-1305839479-612x612.jpeg" alt="invalid" title="Cute cat in the box">
+                <figcaption>
+                    Cute cat in the box🐈
+                </figcaption>
+            </figure>
+            <p>Blockchain is distributed ledger</p>
+            <a href="#">Start your journey in blockchain</a>
+        </div>
 
-    <section>
-        <h2>Features</h2>
-        <ol>
-            <li>Security</li>
-            <li>Massive Developers</li>
-            <li>Decentralized</li>
-        </ol>
-    </section>
+        <pre>
+            &lt;div&gt;
+              This is a div...
+              &lt;p&gt;This paragraph is nested&lt;/p&gt;
+            &lt;/div&gt;          
+        </pre>
 
-    <footer>
-        <p>&copy;2023 CT in Ethereum</p>
-    </footer>
+        <main>
+            <section id="intro">
+                <article>
+                    <header>
+                        <h2>Hello! Welcome to Web3 &amp; Crypto</h2>
+                        <p>by CT</p>
+                    </header>
+                    <img src="./img/626x0w.jpeg" alt="invalid" title="MurmurCats avatar">
+                    <p>This is <em>ethereum</em> mainnet. <span>Please connect your wallet</span> to experience Web3.
+                    </p>
+                    <a href="./articles/article.html#article" target="_blank">Read more......</a>
+                </article>
+            </section>
+
+
+            <section id="feature">
+                <header>
+                    <h2>&heartsuit; Features</h2>
+                    <p>by CT</p>
+
+                </header>
+
+                <ol>
+                    <li>Security</li>
+                    <li>Massive Developers</li>
+                    <li>Decentralized</li>
+                </ol>
+                <footer>
+                    <p>summarized on March 8, 2013</p>
+                </footer>
+            </section>
+        </main>
+
+        <aside id="source">
+            <h2>&circledS; Related source</h2>
+            <ul>
+                <li><a href="#" target="_blank">Aptos Intro.</a></li>
+                <li><a href="#" target="_blank">Optimism Intro.</a></li>
+                <li><a href="#" target="_blank">ZK rollup Intro.</a></li>
+            </ul>
+
+            <hr>
+
+            <blockquote>
+                Not your key, not your asset. - <cite><a
+                        href="https://medium.com/blockchain/not-your-keys-not-your-crypto-explained-ee84d7d09815"
+                        target="_blank">SBF</a></cite>
+            </blockquote>
+        </aside>
+
+        <aside id="contact">
+            <h2>&phone; Contact</h2>
+            <p><strong>Email:</strong> <a
+                    href="mailto:chanyihcheng@gmail.com?subject=Hi%20Ethereum!">chanyihcheng@gmail.com</a></p>
+            <p><strong>Phone:</strong> 0930930268</p>
+        </aside>
+
+        <footer>
+            <p><small>&copy;2023 CT in Ethereum</small></p>
+            <address>
+                Near the tarain staion <br>
+                No.382-8, Taoyin Rd., Taoyuan District, Taoyuan City, Taiwan
+            </address>
+        </footer>
+    </div> <!-- End -->
 </body>
 
 </html>
